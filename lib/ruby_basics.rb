@@ -10,18 +10,18 @@ def argue(arugment)
   return argument
 end
 
-def greeting
+def greeting(greeting, name)
 
 end
 
-def return_a_value
-
+def return_a_value(val = "Nice")
+  return val
 end
 
 def last_evaluated_value
 
 end
 
-def pizza_party
-
+def pizza_party(pizza = cheese)
+  return pizza
 end
